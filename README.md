@@ -26,5 +26,5 @@ To validate the firewall's functionality, the following tests are conducted:
 - **Flow Dump** **(`dpctl dump-flows`)**: Displays the flow entries in the switch to ensure the correct rules are installed.
 - **Iperf**: Tests the network performance to ensure that TCP traffic can still flow freely despite the firewall rules.
 
-# #Conclusion
+## Conclusion
 This project gave me hands-on experience with SDN and OpenFlow, demonstrating how to create a simple but effective firewall. By the end, I can say with confidence I have a deeper understanding of how SDN can be leveraged to control network traffic and improve security in a networked environment.
