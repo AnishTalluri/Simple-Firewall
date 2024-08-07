@@ -28,7 +28,7 @@ This approach is a basic security measure, providing a layer of protection by li
 To validate the firewall's functionality, the following tests are conducted:
 - **Ping All** **(`pingall`)**: Verifies that ICMP traffic is blocked, as it should not be allowed through the firewall.
 - **Flow Dump** **(`dpctl dump-flows`)**: Displays the flow entries in the switch to ensure the correct rules are installed.
-- **Iperf**: Tests the network performance to ensure that TCP traffic can still flow freely despite the firewall rules.
+- **Iperf** **(`iperf`)**: Tests the network performance to ensure that TCP traffic can still flow freely despite the firewall rules.
 
 
 ## Conclusion
